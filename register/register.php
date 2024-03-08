@@ -20,7 +20,7 @@
                     <input type="email" name="email" id="" placeholder="E-mail" required autocomplete="off">
                 </div>
                 <div class="field">
-                    <input type="text" name="telefone" id="" placeholder="Telefone" required autocomplete="off">
+                    <input type="text" name="telefone" id="telefone" placeholder="Telefone" required autocomplete="off" onkeypress="maskTel()" maxlength="14">
                 </div>
                 <div class="field">
                     <input type="password" name="senha" id="" placeholder="Senha" required autocomplete="off">
@@ -32,4 +32,5 @@
         </div>
     </body>
     <script src="https://kit.fontawesome.com/b5370a6cd6.js" crossorigin="anonymous"></script>
+    <script src="masks.js" type="text/javascript"></script>
 </html>
